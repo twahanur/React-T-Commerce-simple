@@ -8,7 +8,7 @@ import {addToDatabaseCart, getDatabaseCart} from '../../utilities/databaseManage
 
 const Shop = () => {
     const fake20 = fakeData.slice(0,20);
-    const [products, setProducts]= useState(fake20);
+    const [products]= useState(fake20);
     const [cart, setCart] = useState([]);
 
     useEffect(()=>{
